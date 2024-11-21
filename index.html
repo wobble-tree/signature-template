@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Signature</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @font-face {
+        font-family: "Belkin";
+        src: url("./assets/fonts/Belkin/WOFF/Belkin-Regular.woff")
+            format("woff2"),
+          url("./assets/fonts/Belkin/WOFF/Belkin-Regular.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Comodo";
+        src: url("./assets/fonts/Comodo\ Pro/ComodoPro-Regular.woff2")
+            format("woff2"),
+          url("./assets/fonts/Comodo\ Pro/Comodo-Regular.woff2") format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Aloevera";
+        src: url("./assets/fonts/Aloevera\ display/Aloevera\ display/WOFF/AloeveraDisplay-Bold.woff")
+            format("woff2"),
+          url("../assets/fonts/Aloevera\ display/Aloevera\ display/WOFF/AloeveraDisplay-Bold.woff")
+            format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Aloevera-Regular";
+        src: url("./assets/fonts/Aloevera\ display/Aloevera\ display/WOFF/AloeveraDisplay-Regular.woff")
+            format("woff2"),
+          url("../assets/fonts/Aloevera\ display/Aloevera\ display/WOFF/AloeveraDisplay-Regular.woff")
+            format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        font-family: "Aloevera", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="padding: 1rem">
+      <img
+        style="width: 5rem; height: 5rem"
+        src="./assets/images/logo.svg"
+        alt="logo"
+      />
+
+      <p style="font-size: 1.125rem; margin-top: 1rem; color: #2f2f2f">
+        John Phillips
+      </p>
+      <p style="font-family: Belkin; font-size: 0.75rem; color: #2f2f2f">
+        Founder & Director
+      </p>
+
+      <div
+        style="
+          height: 2px;
+          background-color: #43ba7f;
+          width: 100%;
+          margin-top: 1rem;
+        "
+      ></div>
+
+      <div style="margin-top: 1rem; display: grid; gap: 0.5rem">
+        <a
+          href="mailto:john@wobbletree.com"
+          style="
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            color: #2f2f2f;
+          "
+        >
+          <img
+            style="height: 1rem; width: 1rem"
+            src="./assets/icons/mail.svg"
+            alt="mail"
+          />
+          <span style="font-family: Belkin">john@wobbletree.com</span>
+        </a>
+        <a
+          href="mailto:john@wobbletree.com"
+          style="
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            color: #2f2f2f;
+          "
+        >
+          <img
+            style="height: 1rem; width: 1rem"
+            src="./assets/icons/unlink.svg"
+            alt="link"
+          />
+          <span style="font-family: Belkin">www.wobbletree.com</span>
+        </a>
+        <div
+          href="mailto:john@wobbletree.com"
+          style="
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            color: #2f2f2f;
+          "
+        >
+          <img
+            style="height: 1rem; width: 1rem"
+            src="./assets/icons/location.svg"
+            alt="location"
+          />
+          <span style="font-family: Belkin">England, United Kingdom</span>
+        </div>
+      </div>
+
+      <div
+        style="
+          height: 2px;
+          background-color: #43ba7f;
+          width: 100%;
+          margin-top: 1rem;
+        "
+      ></div>
+
+      <h2
+        style="
+          font-family: Comodo;
+          font-size: 2.25rem;
+          color: #7d68ff;
+          margin-top: 0.5rem;
+        "
+      >
+        Wobbletree
+      </h2>
+      <p
+        style="
+          font-family: Alevora-Regular;
+          font-size: 0.875rem;
+          color: #7d68ff;
+          margin-top: 0.25rem;
+        "
+      >
+        Scalable. <span style="font-weight: bold">Affordable.</span> Sensible.
+      </p>
+
+      <p
+        style="
+          font-family: Belkin;
+          font-size: 0.6875rem;
+          margin-top: 1rem;
+          max-width: 37.5rem;
+          color: #6b7280;
+        "
+      >
+        The content of this email is confidential and intended for the recipient
+        specified in message only. It is strictly forbidden to share any part of
+        this message with any third party, without a written consent of the
+        sender. If you received this message by mistake, please reply to this
+        message and follow with its deletion, so that we can ensure such a
+        mistake does not occur in the future.
+      </p>
+    </div>
+  </body>
+</html>
